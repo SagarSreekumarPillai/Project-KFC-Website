@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KFC</title>
+    <!-- <link href="main.css" rel="stylesheet" type="text/css"> -->
+    <link href="//fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+
+    <!-- <link href="ogMainStyles.css" rel="stylesheet" type="text/css"> -->
+    <!-- <link href="ogStyles1.css" rel="stylesheet" type="text/css"> -->
+    <!-- <link href="ogStyles2.css" rel="stylesheet" type="text/css"> -->
+
+    <link href="styles.css" rel="stylesheet" type="text/css">
+
+</head>
+<body>
+    <div class="home-loading-animation">
+        <figure>
+            <svg viewBox="0 0 42 20" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
+                <path class="strip-1" d="M0 0h8v20H0z"></path>
+                <path class="strip-2" d="M16 0h8v20h-8z"></path>
+                <path class="strip-3" d="M32 0h8v20h-8z"></path>
+            </svg>
+        </figure>
+    </div>
+    <div id="root">
+        <div style="background-color: rgb(255,255,255);">
+            <div class="wrapper-base-component">
+                <div class="sticky-header-banner">
+                    <div class="setLocationData">
+                        <img src="https://online.kfc.co.in/static/media/Search_Pin.e88a4d93.svg" class="google-location-img">
+                        <div class="setLocationText">Allow location access for local store menu and promos</div>
+                        <button class="button  whiteButton blackBorder setLocation-button setLocation-button-in" role="button" aria-label="Close" data-testid="set-location-button">Set Location</button>
+                    </div>
+                    <hr role="presentation" class="setLocationdivider">
+                    <div class="desktop header">
+                        <div class="header-navs">
+                            <div class="nav">
+                                <span tabindex="0" class="headerLogo">
+                                    <img src="https://online.kfc.co.in/static/media/kfcLogo.492728c6.svg" alt="KFC LOGO">
+                                </span>
+                                <span class="navItemsLeft">
+                                    <a class="navigation-link nav-item-left nav-item"  href="/menu">
+                                        <button class="header-item-buttons d-flex">Menu</button>
+                                    </a>
+                                    <a class="navigation-link nav-item-left nav-item" href="/offers">
+                                        <button class="header-item-buttons d-flex">Deals</button>
+                                    </a>
+                                </span>
+                                <div class="navItemsRight">
+                                    <a class="navigation-link nav-right-items-line nav-item" href="/">
+                                        <button class="header-item-buttons d-flex">
+                                            <div style="display: flex;" data-testid="account">
+                                                <img src="https://images.ctfassets.net/wtodlh47qxpt/6bJdGLRkksNvWP4LI9ZiFF/cb89d6393492fd093e0f99980abfa39e/Account_Icon.svg" class="navRightIcons">
+                                                <span class="notcarticon ml-3">Sign In</span>
+                                            </div>
+                                        </button>
+                                    </a>
+                                    <a data-testid="navItems" class="navigation-link  nav-item" href="/">
+                                        <button class="header-item-buttons d-flex">
+                                            <span class="headerPrice">₹0</span>
+                                            <div class="cartIcon align-items-center justify-content-center" style="display: flex;justify-content: center;" aria-label="cart" role="button">
+                                                <img src="https://images.ctfassets.net/wtodlh47qxpt/6qtBVFuno7pdwOQ9RIvYm9/d13e9b7242980972cf49beddde2cc295/bucket_cart_icon.svg" alt="" class="navRightIcons ">
+                                            <div class="cartIconCount ">0</div>
+                                        </div>
+                                    </button>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div role="main">
+                    <h1 class="sr-only">KFC | Order KFC Chicken Online &amp; Find Restaurants</h1>
+
+
+                    <div>
+                        <div class="headerBottom">
+                            <div class="headBottomParent"><div class="headBottomTxt">LET'S ORDER FOR DELIVERY, PICK UP, OR DINE-IN</div>
+                                <button class="button-contained " type="submit" data-type="primary" role="button">
+                                    <span>Start Order</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="market-hero marketing-hero-in">
+                        <div class="slick-slider slick-initialized">
+                            <div class="slick-list" style="height: 422px;">
+                                <div class="slick-track" style="width: 1536px; opacity: 1; transform: translate3d(0px, 0px, 0px);">
+                                    <div data-index="0" class="slick-slide slick-active slick-current" tabindex="-1" aria-hidden="false" style="outline: none; width: 1536px;">
+                                        <div>
+                                            <div class="marketing-hero-img-div" tabindex="0" role="clickable image">
+                                                <span>
+                                                    <img src="//images.ctfassets.net/wtodlh47qxpt/3rG3DVKuArGcVVWvMJL0vL/6028fc17975a8c862c86fd67c0e54de5/web_1440x396px.jpg?w=1536&amp;fit=fill&amp;fm=webp" class="carausel-image">
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="general-menu-container">
+                        <div class="browse-parent d-flex mx-2">
+                            <h2 class="browse">browse categories</h2>
+                            <div class="horizontal-line">
+
+                            </div>
+                        </div>
+                        <a class="menu-cards" href="/menu/international-burger-fest">
+                            <img src="https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/categories/CAT289.jpg?ver=51.2" alt="" data-testid="" class="">
+                            <section class="menu-text"> INTERNATIONAL BURGER FEST </section>
+                        </a>
+                        <a class="menu-cards" href="/menu/match-day-combos">
+                            <img src="https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/categories/CAT287.jpg?ver=51.2" alt="" data-testid="" class="">
+                            <section class="menu-text"> MATCH DAY COMBOS </section>
+                        </a>
+                        <a class="menu-cards" href="/menu/value-lunch-specials">
+                            <img src="https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/categories/CAT228.jpg?ver=51.2" alt="" data-testid="" class="">
+                            <section class="menu-text"> VALUE LUNCH SPECIALS </section>
+                        </a>
+                        <a class="menu-cards" href="/menu/box-meals">
+                            <img src="https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/categories/CAT158.jpg?ver=51.2" alt="" data-testid="" class="">
+                            <section class="menu-text"> BOX MEALS </section>
+                        </a>
+                        <a class="menu-cards" href="/menu/burgers">
+                            <img src="https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/categories/CAT99.jpg?ver=51.2" alt="" data-testid="" class="">
+                            <section class="menu-text"> BURGERS </section>
+                        </a>
+                        <a class="menu-cards" href="/menu/chicken-buckets">
+                            <img src="https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/categories/CAT86.jpg?ver=51.2" alt="" data-testid="" class="">
+                            <section class="menu-text"> CHICKEN BUCKETS </section>
+                        </a>
+                        <a class="menu-cards" href="/menu/rice-bowlz">
+                            <img src="https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/categories/CAT213.jpg?ver=51.2" alt="" data-testid="" class="">
+                            <section class="menu-text"> RICE BOWLZ </section>
+                        </a>
+                        <a class="single-lickin-card menu-cards" href="/menu">
+                            <img src="https://online.kfc.co.in/static/media/finger_lickin.fc21c805.svg" alt="" data-testid="" class="single-img">
+                            <section class="all-menu-text"> View All Menu
+                                <span class="menu-arrow-span">
+                                    <img src="https://online.kfc.co.in/static/media/black_right_arrow.a801582c.svg" alt="" class="more-arrow-img">
+                                </span>
+                            </section>
+                        </a>
+                    </div>
+
+                    <div class="offers-container">
+                        <div class="offersCard-container">
+                            <div class="offers-Icon">
+                                <div>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="80" height="42" viewBox="0 0 80 42" fill="none" class="" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                        <rect width="16.4103" height="41.0256" fill="#E4002B"></rect>
+                                        <rect x="32.8203" width="16.4103" height="41.0256" fill="#E4002B"></rect>
+                                        <rect x="63.5898" width="16.4103" height="41.0256" fill="#E4002B"></rect>
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="offersContainerHeader-items">
+                                <h2 class="offersContainer-header">Exclusive Offers for you</h2>
+                                <div class="view-all-text">
+                                    <a class="offersViewAll-link">View All Deals</a>
+                                    <div class="offersViewAlldeals-arrow">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="19" height="7" viewBox="0 0 19 7" fill="none" class="injected-svg" data-src="/static/media/ViewDetailsArrow.53c29b5a.svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                            <path d="M0 3.46484H18" stroke="white"></path>
+                                            <path d="M15.5352 1L18 3.46484L15.5352 5.92969" stroke="white"></path>
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="offersCard-list">
+                                <div class="offersCarousal-list">
+                                    <div class="slick-slider slick-initialized">
+                                        <div class="slick-arrow slick-prev slick-disabled">
+                                        </div>
+                                        <div class="slick-list">
+                                            <div class="slick-track" style="opacity: 1; transform: translate3d(-37px, 0px, 0px); width: 5481px;">
+                                                <div data-index="0" class="slick-slide slick-active slick-current" tabindex="-1" aria-hidden="false" style="outline: none;">
+                                                    <div>
+                                                        <div tabindex="-1" style="width: 100%; display: inline-block;">
+                                                            <div class="offers-card false">
+                                                                <img src="https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/offers/xl/CHKZINGER.jpg?ver=52.62" alt="No-Image" class="offersImageText-background">
+                                                                <div class="offersCard-content">
+                                                                    <div class="offersImageTextCard-title">
+                                                                        Free Chicken zinger on a cart value of 499 or above on first order. Only for registered users.
+                                                                    </div>
+                                                                    <div class="offersCard-text">
+                                                                        1 Pc free Chicken Zinger on a cart value of 499 or above on first order. Only for registered users.
+                                                                    </div>
+                                                                    <div class="offersButton-item">
+                                                                        <button class="offersView-details" role="button" aria-label="View Details Free Chicken zinger on a cart value of 499 or above on first order. Only for registered users." data-testid="view-details-btn-img-txt">
+                                                                            View Details
+                                                                        </button>
+                                                                        <button class="offers-redeem button transparent-btn black-border whiteButton blackBorder" role="button" aria-label="Apply Offer Free Chicken zinger on a cart value of 499 or above on first order. Only for registered users." data-testid="offer-and-promtion-image-text-button">
+                                                                            Apply Offer
+                                                                        </button>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div data-index="1" class="slick-slide slick-active" tabindex="-1" aria-hidden="false" style="outline: none;">
+                                                    <div>
+                                                        <div tabindex="-1" style="width: 100%; display: inline-block;">
+                                                            <div class="offers-card false">
+                                                                <img src="https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/offers/xl/ADDCHK99.jpg?ver=52.62" alt="No-Image" class="offersImageText-background">
+                                                                <div class="offersCard-content">
+                                                                    <div class="offersImageTextCard-title">
+                                                                        Add 2 Pc  Hot n Crispy Chicken at just Rs 99 on min cart value of Rs 499 or more. Applicable on 2nd &amp; 3rd order for signed in user.
+                                                                    </div>
+                                                                    <div class="offersCard-text">
+                                                                        Add 2 Pc  Hot n Crispy Chicken at just Rs 99 on min cart value of Rs 499 or more. Applicable on 2nd &amp; 3rd order for signed in user.
+                                                                    </div>
+                                                                    <div class="offersButton-item">
+                                                                        <button class="offersView-details" role="button" aria-label="View Details Add 2 Pc  Hot n Crispy Chicken at just Rs 99 on min cart value of Rs 499 or more. Applicable on 2nd &amp; 3rd order for signed in user." data-testid="view-details-btn-img-txt">
+                                                                            View Details
+                                                                        </button>
+                                                                        <button class="offers-redeem button transparent-btn black-border whiteButton blackBorder" role="button" aria-label="Apply Offer Add 2 Pc  Hot n Crispy Chicken at just Rs 99 on min cart value of Rs 499 or more. Applicable on 2nd &amp; 3rd order for signed in user." data-testid="offer-and-promtion-image-text-button">
+                                                                            Apply Offer
+                                                                        </button>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div data-index="2" class="slick-slide slick-active" tabindex="-1" aria-hidden="false" style="outline: none;">
+                                                    <div>
+                                                        <div tabindex="-1" style="width: 100%; display: inline-block;">
+                                                            <div class="offers-card false">
+                                                                <img src="https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/offers/xl/BIGSAVE.jpg?ver=52.62" alt="No-Image" class="offersImageText-background">
+                                                                <div class="offersCard-content"><div class="offersImageTextCard-title">
+                                                                    Upto Rs 100 off on min cart value of Rs 699 or more . Applicable on 4th order onwards for signed in user.
+                                                                </div>
+                                                                <div class="offersCard-text">
+                                                                    Upto Rs 100 off on min cart value of Rs 699 or more . Applicable on 4th order onwards for signed in user.
+                                                                </div>
+                                                                <div class="offersButton-item">
+                                                                    <button class="offersView-details" role="button" aria-label="View Details Upto Rs 100 off on min cart value of Rs 699 or more . Applicable on 4th order onwards for signed in user." data-testid="view-details-btn-img-txt">
+                                                                        View Details
+                                                                    </button>
+                                                                    <button class="offers-redeem button transparent-btn black-border whiteButton blackBorder" role="button" aria-label="Apply Offer Upto Rs 100 off on min cart value of Rs 699 or more . Applicable on 4th order onwards for signed in user." data-testid="offer-and-promtion-image-text-button">
+                                                                        Apply Offer
+                                                                    </button>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                </div>
+                                                <div data-index="3" class="slick-slide" tabindex="-1" aria-hidden="true" style="outline: none;">
+                                                    <div>
+                                                        <div tabindex="-1" style="width: 100%; display: inline-block;">
+                                                            <div class="offers-card offersCard-fade lastOffersCard-fade">
+                                                                <img src="https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/offers/xl/PHP75.jpg?ver=52.62" alt="No-Image" class="offersImageText-background">
+                                                                <div class="offersCard-content">
+                                                                    <div class="offersImageTextCard-title">
+                                                                        Get flat Rs.75 off on a cart value of Rs.599 or above
+                                                                    </div>
+                                                                    <div class="offersCard-text">
+                                                                        Get flat Rs.75 off on a cart value of Rs.599 or above
+                                                                    </div>
+                                                                    <div class="offersButton-item">
+                                                                        <button class="offersView-details" role="button" aria-label="View Details Get flat Rs.75 off on a cart value of Rs.599 or above" data-testid="view-details-btn-img-txt">
+                                                                            View Details
+                                                                        </button>
+                                                                        <button class="offers-redeem button transparent-btn black-border whiteButton blackBorder" role="button" aria-label="Apply Offer Get flat Rs.75 off on a cart value of Rs.599 or above" data-testid="offer-and-promtion-image-text-button">
+                                                                            Apply Offer
+                                                                        </button>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="offers-slideContainer">
+                                            <input class="offers-slider" type="range" min="0" max="9" id="myRange" tabindex="-1" aria-hidden="true" value="0">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <div>
+                        <footer class="site-footer">
+                            <div class="row row-one aa">
+                                <a class="header-logo" href="/">
+                                    <img src="//images.ctfassets.net/wtodlh47qxpt/25FSYFuEtGct8NSrtpKe6d/b602f6fe0bf294e6a6dff5d7648bf594/KFC_Logo.svg" alt="KFC LOGO" class="kfc-footer-logo">
+                                </a>
+                                <div class="category-items">
+                                    <div class="ul-title">
+                                        <span role="heading" aria-level="2" class="header-text-footer">KFC India</span>
+                                        <ul class="footer-links">
+                                            <li><a class="support-links-menu" target="" tabindex="0" data-testid="listItems-component-About KFC" href="/about-kfc">About KFC</a></li>
+                                            <li><a class="support-links-menu" target="" tabindex="0" data-testid="listItems-component-KFC Care" href="/about-kfc/kfc-care">KFC Care</a></li>
+                                            <li><a class="support-links-menu" target="" tabindex="0" data-testid="listItems-component-Careers" href="/about-kfc/careers">Careers</a></li>
+                                            <li><a class="support-links-menu" target="" tabindex="0" data-testid="listItems-component-Our Golden Past" href="/about-kfc/our-golden-past">Our Golden Past</a></li>
+                                            <li><a class="support-links-menu" target="_blank" tabindex="0" data-testid="listItems-component-Responsible Disclosure" href="https://kfc.responsibledisclosure.com/hc/en-us">Responsible Disclosure</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="ul-title">
+                                        <span role="heading" aria-level="2" class="header-text-footer">Legal</span>
+                                        <ul class="footer-links">
+                                            <li><a class="support-links-menu" target="" tabindex="0" data-testid="listItems-component-Terms and Conditions" href="/terms-and-conditions">Terms and Conditions</a></li>
+                                            <li><a class="support-links-menu" target="" tabindex="0" data-testid="listItems-component-Privacy Policy " href="/privacyPolicy">Privacy Policy </a></li>
+                                            <li><a class="support-links-menu" target="" tabindex="0" data-testid="listItems-component-Disclaimer" href="/about-kfc/disclaimer">Disclaimer</a></li>
+                                            <li><a class="support-links-menu" target="" tabindex="0" data-testid="listItems-component-Caution Notice" href="/about-kfc/caution-notice">Caution Notice</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="ul-title">
+                                        <span role="heading" aria-level="2" class="header-text-footer">KFC Food</span>
+                                        <ul class="footer-links">
+                                            <li><a class="support-links-menu" target="" tabindex="0" data-testid="listItems-component-Menu" href="/menu">Menu</a></li>
+                                            <li><a class="support-links-menu" target="" tabindex="0" data-testid="listItems-component-Order Lookup" href="/">Order Lookup</a></li>
+                                            <li><a class="support-links-menu" target="" tabindex="0" data-testid="listItems-component-Gift Card" href="/giftcards">Gift Card</a></li>
+                                            <li><a class="support-links-menu" target="" tabindex="0" data-testid="listItems-component-Nutrition &amp; Allergen" href="/about-kfc/nutrition">Nutrition &amp; Allergen</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="ul-title">
+                                        <span role="heading" aria-level="2" class="header-text-footer">Support</span>
+                                        <ul class="footer-links">
+                                            <li><a class="support-links-menu" target="" tabindex="0" data-testid="listItems-component-Get Help" href="/help">Get Help</a></li>
+                                            <li><a class="support-links-menu" target="" tabindex="0" data-testid="listItems-component-Contact Us" href="/contactus">Contact Us</a></li>
+                                            <li><a class="support-links-menu" target="_blank" tabindex="0" data-testid="listItems-component-KFC Feedback" href="https://feedback.kfc.co.in">KFC Feedback</a></li>
+                                            <li><a class="support-links-menu" target="" tabindex="0" data-testid="listItems-component-Privacy Policy " href="/privacyPolicy">Privacy Policy </a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="findstore">
+                                    <img src="https://images.ctfassets.net/wtodlh47qxpt/6qgKpWUOIsrIiazhk3cdmF/d60b4c20be69bab1f939bf33348b67e9/Find_KFC.svg" alt="">
+                                    <a class="link" target="_blank" tabindex="0" href="https://restaurants.kfc.co.in/">Find a KFC</a>
+                                </div>
+                                <div class="flex social-btns">
+                                    <a class="link" target="_blank" href="https://play.google.com/store/apps/details?id=com.yum.kfc">
+                                        <img src="https://images.ctfassets.net/wtodlh47qxpt/6BdZsyjLn64c06uCIE73d1/fb530f5d5231533b049463f6c7e8a2b1/google_play.svg" alt="Google Play">
+                                    </a>
+                                    <a class="link" target="_blank" href="https://apps.apple.com/in/app/kfc-india/id915824379">
+                                        <img src="https://images.ctfassets.net/wtodlh47qxpt/em3mcMuAdXWlgucSJiTbS/d3ae7e51ed101d829e459355e255c47f/apple.svg" alt="Apple Store">
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="row row-two">
+                                <div class="column lang-div">
+                                </div>
+                                <div class="column">
+                                    <p class="copyright-text">Copyright © KFC Corporation 2024 All rights reserved</p>
+                                </div>
+                                <div class="column social-div">
+                                    <ul class="social-icons">
+                                        <li>
+                                            <a class="support-links-menu" target="_blank" tabindex="0" data-testid="" href="https://www.instagram.com/kfcindia_official/"><img src="https://images.ctfassets.net/wtodlh47qxpt/4ZHyPA2EeaoP3aqtNDriBA/463462a9c27b0aa585e12b21ce3766e0/Social_Insta_White.svg" alt="Instagram">
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="support-links-menu" target="_blank" tabindex="0" data-testid="" href="https://www.facebook.com/KFCIndia"><img src="https://images.ctfassets.net/wtodlh47qxpt/dKiu2meLcfz2DNwsg7nZw/7194830b1ba6f25b158a23d6b2c4752c/Social_Facebook_White.svg" alt="Facebook">
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="support-links-menu" target="_blank" tabindex="0" data-testid="" href="https://twitter.com/KFC_India"><img src="https://images.ctfassets.net/wtodlh47qxpt/78z9x0WwdkdXwGVK726EKX/6599ca34ec88e2a6f46d7d94ed85a8ad/Social_Twitter_White.svg" alt="Twitter">
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </footer>
+                    </div>
+                </div>
+            </div>
+
+    </div>
+</body>
+</html>
